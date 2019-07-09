@@ -1,14 +1,14 @@
 
 #Importing a CSV file;
 
-data weightgain;
-infile "/home/u39109509/weightgain.csv" DSD Missover firstobs=2;
-input id sources$ type$ weightg;
-run;
+`data weightgain;`
+`infile "/home/u39109509/weightgain.csv" DSD Missover firstobs=2;`
+`input id sources$ type$ weightg;`
+`run;`
 
-must use " " around the file name when importing a .CSV file
+##must use " " around the file name when importing a .CSV file
 
-The DSD (Delimiter-Sensitive Data) in infile statement does three things for you. 
+##The DSD (Delimiter-Sensitive Data) in infile statement does three things for you. 
 1: it ignores delimiters in data values enclosed in quotation marks; 
 2: it ignores quotation marks as part of your data; 
 3: it treats two consecutive delimiters in a row as missing value. EG-> 1,,2
