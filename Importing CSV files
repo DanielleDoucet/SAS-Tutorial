@@ -1,6 +1,5 @@
-***********************;
-importing a CSV file;
-***********************;
+
+#Importing a CSV file;
 
 data weightgain;
 infile "/home/u39109509/weightgain.csv" DSD Missover firstobs=2;
