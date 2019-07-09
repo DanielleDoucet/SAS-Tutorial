@@ -1,0 +1,8 @@
+#Importing a XLSX file;
+
+
+proc import out=salesdata datafile="/home/u39109509/Sample-Sales-Data.xlsx" DBMS=XLSX;
+proc print data=salesdata; run;
+
+/*proc import The IMPORT procedure reads external data and writes the data to a SAS data set */
+/*DBMS allows you to identify the file type */
