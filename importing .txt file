@@ -1,0 +1,22 @@
+
+***********************;
+importing a .txt file;
+***********************;
+
+data salary;
+infile '/home/u39109509/salary.txt';  /*<- single apstrophes are used to designate the location of the .txt. file*/
+input year salary; /* <-identify the names of the columns. Separate with a space */ 
+run; 
+
+***********************;
+Salary is the name of the dataset;
+***********************;
+
+***********************;
+Things to Remember
+***********************;
+
+all lines must end in a semi colon in SAS 
+retrieve the file by finding its location by right clicking 
+on the file name in the server files and folders and selecting properties. 
+Copy and space the location of the file and paste it between apstrophes 
