@@ -1,5 +1,4 @@
-# SAS-Tutorial
-Tutorial on SAS basic features
+# SAS-Tutorial on Importing Files
 
 # Importing Files
 ## CSV- "Comma Separated Values"
