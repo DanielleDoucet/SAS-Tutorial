@@ -46,6 +46,7 @@ run;`
 
 
 _set length by adding $# in the length statement after input statement
+
 _common date format MMDDYY10.;
 
 
