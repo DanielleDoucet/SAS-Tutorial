@@ -1,8 +1,11 @@
 #Read Me
 # Input Types and Formats
 Three types of input:
+
 List input 
+
 Column input 
+
 Formatted input
 
 ## List Input
