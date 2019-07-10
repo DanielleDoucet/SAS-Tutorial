@@ -19,9 +19,13 @@ mark 20 0 5 20
 run;`
 
 _the "input" statement declares the variables
+
 _must use space delimitors for *list* input
+
 _missing data is denoted by a period
+
 _character information must be less than 8 character and contain no spaces
+
 _dates and complex values should not be used with this format
 
 ## Column Inputs
