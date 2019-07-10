@@ -10,12 +10,19 @@ Formatted input
 
 ## List Input
 `data sales;
+
 input Name$ Sales_1-Sales_4;
+
 cards;
+
 greg 10 2 40 0 
+
 john 15 . 10 100 
+
 lisa 50 10 15 50 
+
 mark 20 0 5 20 
+
 run;`
 
 _the "input" statement declares the variables
@@ -31,12 +38,19 @@ _dates and complex values should not be used with this format
 ## Column Inputs
 
 `data sales;
+
 input Name$1-4 Sales_1-Sales_4 @5;/*have to tell SAS that the name column goes from 1-4 and that the data starts at the 5th line*/
+
 cards;
+
 greg10 2 40 0 
+
 john15 5  10 100 
+
 lisa50 10 15 50 
+
 mark20 0 5 20 
+
 run;`
 
 _column input is good for standard numeric data
